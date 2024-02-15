@@ -1,0 +1,306 @@
+* {
+  margin: 0px;
+}
+
+.header {
+  width: 100%;
+  height: 91px;
+  background-color: rgb(8, 82, 39);
+  position: fixed;
+  top: 0px;
+  z-index: 2;
+}
+
+.topnav {
+  width: 50%;
+  float: left;
+  padding-top: 27px;
+  padding-left: 65px;
+}
+
+.topnav-right {
+  float: right;
+  padding-top: 45px;
+  padding-right: 50px;
+
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+
+}
+
+li {
+  float: left;
+  display: block;
+}
+
+li a {
+  text-decoration: none;
+  padding: 20px;
+  text-align: center;
+  color: white;
+  font-size: 21px;
+
+}
+
+li a:hover {
+  background-color: #555;
+  color: white;
+}
+
+li a.active {
+  background-color: #080a09;
+  color: white;
+}
+
+#home {
+  background-image: url("https://c4.wallpaperflare.com/wallpaper/557/8/980/food-pasta-basil-olives-wallpaper-preview.jpg");
+  height: 286px;
+  background-size: cover;
+  background-position: top;
+  background-attachment: fixed;
+  font-size: 16px;
+  padding: 43px;
+  padding-top: 113px;
+  padding-left: 99px;
+  opacity: 1;
+  font-weight: 800;
+  color: white;
+  text-align: center;
+  filter: brightness(92%);
+}
+
+#header-h1 {
+  text-align: center;
+  margin-top: 87px;
+  font-size: 77px;
+  font-weight: 600;
+  color: white;
+}
+
+#recepies {
+  height: 205px;
+  background-color: rgb(187, 185, 185);
+  position: relative;
+}
+
+.rec-col {
+  width: 223px;
+  height: 210px;
+  background-color: black;
+  position: absolute;
+  /* border: solid 1px;
+  border-color: wheat; */
+}
+
+#rec-d1 {
+  margin-left: 284px;
+  margin-top: -34px
+}
+
+#rec-d2 {
+  margin-left: 489px;
+  margin-top: -57px;
+  z-index: 1;
+}
+
+#rec-d3 {
+  margin-left: 692px;
+  margin-top: -34px
+}
+
+.rec-img {
+  width: 100%;
+  height: 100%;
+  filter: brightness(73%);
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+  color: white;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 600;
+  margin-left: 14px;
+}
+
+.btn {
+  position: absolute;
+  top: -529%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: rgb(8, 82, 39);
+  color: white;
+  font-size: 11px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 54px;
+  text-align: center;
+}
+
+#indian-dishes {
+  height: 400px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.indian-col {
+  width: 25%;
+  height: 394px;
+  /* background-color: #555; */
+  margin-top: 94px;
+}
+
+#indian-head {
+  text-align: center;
+  font-size: 46px;
+  font-weight: 600;
+  position: absolute;
+  margin-left: 4px;
+  margin-top: -316px;
+}
+
+.indian-img {
+  width: 100%;
+}
+
+.btn1 {
+  background-color: rgb(8, 82, 39);
+  border: none;
+  color: white;
+  padding: 12px 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin-left: 236px;
+  border-radius: 10px;
+  cursor: pointer;
+  border-radius: 54px;
+}
+#american-dishes{
+  height: 400px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  /* background-color: #85a789; */
+
+}
+#am-head{
+  text-align: center;
+  font-size: 46px;
+  font-weight: 600;
+  position: absolute;
+  margin-left: 4px;
+  margin-top: -115px;
+
+}
+.american-col{
+  width: 25%;
+  height: 394px;
+  background-color: #66976c;
+  margin-top: 207px;
+
+}
+.am-img{
+  width: 100%;
+}
+#Burger-dishes{
+  height: 400px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+
+}
+#b-head{
+  text-align: center;
+  font-size: 46px;
+  font-weight: 600;
+  position: absolute;
+  margin-left: 4px;
+  margin-top: 143px;
+
+}
+.b-col{
+  width: 25%;
+  height: 394px;
+  /* background-color: #555; */
+  margin-top: 345px;
+
+}
+.b-img{
+  width: 100%;
+}
+#about{
+  width: 100%;
+  height: 424px;
+    background-color: #d7e4da;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 373px;
+    text-align: center;
+    font-size: 23px;
+    padding-top: 39px;
+    position: relative;
+   
+}
+#about-head{
+  margin-top: -9px;
+  text-align: center;
+  font-size: 42px;
+  font-weight: 600;
+  position: absolute;
+  margin-left: 4px;
+}
+.about-col{
+  margin-top: -9px;
+    margin-left: -168px;
+    width: 601px;
+    height: 9px;
+    text-align: justify;
+    color: black;
+  /* background-color: rgb(230, 235, 240); */
+}
+#about-img{
+  width: 100%;
+}
+.about-dec{
+  position: absolute;
+    bottom: 135px;
+    left: 30px;
+    color: rgb(12, 12, 12);
+    font-size: 15px;
+    font-weight: 600;
+    margin-left: 14px;
+    margin-right: 950px;
+    text-align: justify;
+
+}
+#footer{
+  width: 100%;
+  height: 400px;
+  background-color: rgb(8, 82, 39);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.footer-col{
+  width: 343px;
+  height: 169px;
+  /* background-color: azure; */
+  text-align: center;
+  color: white;
+
+}
